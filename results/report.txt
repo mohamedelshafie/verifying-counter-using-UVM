@@ -1,0 +1,79 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /counter_UVM_tb_sv_unit/fun_coverage/cg         100.00%        100    Covered              
+    covered/total bins:                                    11         11                      
+    missing/total bins:                                     0         11                      
+    % Hit:                                            100.00%        100                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint cg::cp1                                100.00%        100    Covered              
+        covered/total bins:                                 5          5                      
+        missing/total bins:                                 0          5                      
+        % Hit:                                        100.00%        100                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin b0                                              3          1    Covered              
+        bin b1                                              9          1    Covered              
+        bin b2                                              8          1    Covered              
+        bin b3[4]                                           3          1    Covered              
+        bin b3[5]                                           9          1    Covered              
+    Coverpoint cg::cp2                                100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin auto[0]                                        99          1    Covered              
+        bin auto[1]                                       101          1    Covered              
+    Coverpoint cg::cp3                                100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin auto[0]                                        97          1    Covered              
+        bin auto[1]                                       103          1    Covered              
+    Coverpoint cg::cp4                                100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin auto[0]                                        90          1    Covered              
+        bin auto[1]                                       110          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/uvm_tb/dut/assert1/RST
+                     D:/QuestaSim/UVM_counter/counter_UVM_tb.sv(419)
+                                                        0          1
+/uvm_tb/dut/assert1/UP
+                     D:/QuestaSim/UVM_counter/counter_UVM_tb.sv(420)
+                                                        0          1
+/uvm_tb/dut/assert1/DOWN
+                     D:/QuestaSim/UVM_counter/counter_UVM_tb.sv(421)
+                                                        0          1
+/uvm_tb/dut/assert1/LOAD
+                     D:/QuestaSim/UVM_counter/counter_UVM_tb.sv(422)
+                                                        0          1
+/uvm_tb/dut/assert1/STABLE
+                     D:/QuestaSim/UVM_counter/counter_UVM_tb.sv(423)
+                                                        0          1
+/counter_UVM_tb_sv_unit/generator/body/#anonblk#171639572#57#4#/#ublk#171639572#57/immed__59
+                     D:/QuestaSim/UVM_counter/counter_UVM_tb.sv(59)
+                                                        0          1
